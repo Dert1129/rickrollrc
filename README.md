@@ -11,7 +11,7 @@ To start rickrollin’ immediately:
 
 Here is the clandestine command you can give to your friends 😈
 
-    curl -s -L https://bit.ly/3zvELNz | bash
+    curl -s -L http://tinyurl.com/mr486nnx | bash
 
 ![rickroll in xterm](http://i.imgur.com/ZAsQWtP.png)
 ![rickroll in mac](http://i.imgur.com/yDLaZna.png)
@@ -37,6 +37,19 @@ spoiling the surprise when you accidentally execute it for the nth
 time (and also, unless you really like living dangerously, for
 security, in case we are demonically possessed to replace `roll.sh`
 with something evil).
+
+## Flipper Zero Integration
+
+This is a fork of the original repository: https://github.com/keroserene/rickrollrc
+I've added a short script that uses the Flipper Zero's BadUSB App to call the link on the host's computer to Completely Rick Roll them
+
+## Flipper Zero installation
+You MUST HAVE an SD card in order to install external scripts
+1. Download the qFlipper app here: `https://flipperzero.one/update`
+2. Open SD Card
+3. Open badUSB and drop the .txt file(s) into the directory.
+4. Rick roll everyone!
+
 
 ## Misc.
 
